@@ -7,8 +7,8 @@
 class SupabaseConfig {
   SupabaseConfig._();
 
-  static const String supabaseUrl = 'PASTE_YOUR_PROJECT_URL_HERE';
-  static const String supabaseAnonKey = 'PASTE_YOUR_ANON_KEY_HERE';
+  static const String supabaseUrl = 'https://dfzaazwojsgmgnfizabs.supabase.co';
+  static const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRmemFhendvanNnbWduZml6YWJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIwNzgzODYsImV4cCI6MjA5NzY1NDM4Nn0.MKNE-xsJat26pX1Ev00meEpTnOOPWwpgizla6Os7oDc';
 
   static bool get isConfigured =>
       !supabaseUrl.contains('PASTE_') && !supabaseAnonKey.contains('PASTE_');

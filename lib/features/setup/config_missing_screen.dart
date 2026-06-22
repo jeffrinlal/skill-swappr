@@ -29,12 +29,12 @@ class ConfigMissingScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 12),
                 const Text(
-                  'Add your Supabase keys to connect the app.
+                  'Add your Supabase keys to connect the app.'
 
-'
-                  'Open: lib/core/config/supabase_config.dart
 
-'
+                  'Open: lib/core/config/supabase_config.dart'
+
+
                   'and paste your Project URL and anon key.',
                   textAlign: TextAlign.center,
                   style:
